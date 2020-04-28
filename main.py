@@ -1,5 +1,5 @@
-import cartas
-
-b1 = cartas.crea_baraja()
-b2 = cartas.crea_baraja()
+import ccartas
+mi_b = ccartas.Baraja()
+mi_b.mezclar()
+print(mi_b.naipes)
 
